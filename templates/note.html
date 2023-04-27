@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Note</title>
+</head>
+<body>
+
+    <h1>Create a Note</h1>
+    <form action="/createdNote" method="POST">
+        <label>Title</label>
+        <input type="text" name="title">
+
+        <label>Text</label>
+        <input type="text" name="text">
+<!-- 
+        <label>Student ID</label>
+        <input type="number" name="student_id"> -->
+<!-- 
+        <label>Creation Date</label>
+        <input type="date" name="date"> -->
+
+        <input type="submit" name="submit" value="SUBMIT">
+    </form>
+
+    <a href="/home">Go to Home</a>
+    <a href="/show">Show All Notes</a>
+    
+    {{msg}}
+   
+    
+
+
+
+</body>
+</html>
